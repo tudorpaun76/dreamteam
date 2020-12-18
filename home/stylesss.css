@@ -1,0 +1,168 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	margin:0;
+	padding:0;
+	font-family: quicksand;
+}
+section
+{
+	width:100%;
+	height:100vh;
+}
+.header
+{
+	height: 100vh;
+	
+}
+.navbar-style
+{
+	box-shadow: 0 5px 10px #efefef;
+}
+.logo
+{
+	height: 48px;
+	padding: 2px 10px;
+	
+}
+.icon-bar
+{
+	background: darkorange;
+}
+
+li a 
+{
+	color: #333;
+}
+.big-text
+{
+	font: quicksand;
+	font-size: 50px;
+	margin: 20px 0;
+	color: white;
+}
+.text
+{
+	font: quicksand;
+	font-size: 20px;
+	margin: 50px 0;
+	color: white;
+}
+a.btn
+{
+	margin: 30px 10px;
+	width: 150px;
+	padding: 10px;
+	border-radius: 20px;
+}
+a.btn-first
+{
+	background-color:  transparent;
+	border: 1px solid black;
+	color: #333;
+}
+a.btn-second
+{
+	background-color:  transparent;
+	border: 1px solid black;
+	color: #333;
+}
+a.btn-third
+{
+	background-color:  transparent;
+	border: 1px solid black;
+	color: #333;
+}
+a.btn:hover
+{
+	background: black;
+	border: none;
+	color: #fff;
+	box-shadow: 5px 5px 10px #333;
+	transition: 0.3s;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  top:320px;
+  left: 450px;
+  position: fixed;
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 40%;
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Style the submit button */
+form.example button {
+  top: 320px;
+  left: 910px;
+  position: absolute;
+  float: right;
+  width: 10%;
+  padding: 10px;
+  background: #ecb26f;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+form.example button:hover {
+  background: black;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.slogan{
+	position: fixed;
+	top: 200px;
+	font-family: 'Frank Ruhl Libre', serif;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	left: 540px;
+	font-size: 20pt;
+}
+
+/* @media area*/
+
+@media only screen and (max-width: 992px){
+	form.example button{
+		display: none;
+	}
+	form.example input[type=text]{
+		left: 160px;
+	}
+	.slogan{
+		left: 70px;
+		top: 120px;
+	}
+	
+	@media only screen and (max-width: 600px){
+	form.example button{
+		display: none;
+	}
+	form.example input[type=text]{
+		top: 100px;
+	}
+	.slogan{
+		left: 70px;
+		top: 30px;
+	}
+	
+}

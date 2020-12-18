@@ -1,0 +1,205 @@
+
+
+
+.navbar-style{
+	box-shadow: 0 5px 10px #efefef;
+}
+.logo{
+	height: 48px;
+	padding: 2px 10px;
+}
+.icon-bar{
+	background: darkorange;
+}
+
+li a{
+	color: #333;
+}
+
+
+
+body{
+  margin: 0;
+  padding: 0;
+  background: white;
+}
+/* fonts for my website*/
+p{
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1{
+  font-family: 'Frank Ruhl Libre', serif;
+}
+
+
+
+/* for top part of page, for the writing and picture*/
+h2{
+  font-family: 'Frank Ruhl Libre', serif;
+  color: #333;
+  font-size: 4em;
+  line-height: 1.4em;
+  font-weight: 500;
+  }
+
+
+/* From youtube video
+.content https://www.youtube.com/watch?v=91Q6RvKvd7o&ab_channel=OnlineTutorials */
+/* for postioning of top text and style and picture of the keys*/
+
+.content{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+	padding: 50px;
+	background-color: #F1F0F3;
+}
+
+.content .textBox{
+  position: relative;
+  max-width: 600px;
+}
+
+.content .textBox h2 span{
+	color:#0e4488;
+	font-size: 1.2em;
+	font-weight: 800;
+}
+
+.content .textBox p{
+	color: #333;
+}
+
+.content .textBox a{
+	display: inline-block;
+	margin-top: 20px;
+	padding: 8px 20px;
+	background:#0e4488;
+	color: #fff;
+	border-radius: 40px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+.content .imgBox2 img{
+	padding: 50px;
+	float: left;
+  display: flex;
+	justify-content: flex-start;
+}
+
+.title{
+	text-align: center;
+	margin: 0 auto 80px;
+	position: relative;
+	line-height: 60px;
+	color: #0e4488;
+	font-size: 37px;
+	font-family: 'Frank Ruhl Libre', serif;
+}
+
+
+
+
+
+
+
+
+
+
+/* for placing of first image */
+
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.col-2{
+  flex-basis: 50%;
+  min-width: 300px;
+}
+/* for placing of first image */
+
+.col-2 img{
+  max-width: 100%;
+  padding: 50px 0;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+
+/* styling of the pictures of the houses*/
+.categories{
+	margin: 70px 0;
+}
+
+.col-3{
+	flex-basis: 30%;
+	min-width: 250px;
+	margin-bottom: 30px;
+}
+
+.col-3 img{
+	width:100%;
+}
+
+/* make the image bigger when you hover over it*/
+/* https://www.youtube.com/watch?v=nM-30MdKNc4&ab_channel=OnlineTutorials*/
+/* I adapted it to work for my images*/
+.small-container .col-3 img:hover{
+	z-index: 1;
+	transform: scale(1.25);
+	box-shadow: 0 25px 40px rgba(0,0,0,.5);
+}
+
+.small-container{
+	max-width: 1080px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.col-4{
+	flex-basis: 25%;
+	padding:10px;
+	min width: 200px;
+	margin-bottom: 50px;
+}
+
+.col-4 img{
+	width: 100%;
+}
+
+.small-container .col-4 img:hover{
+	z-index: 1;
+	transform: scale(1.25);
+	box-shadow: 0 25px 40px rgba(0,0,0,.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#CBB26A - gold
+#4e5c78 - navy/grey
+#F1F0F3 - light grey
+#0e4488 - dark blue
